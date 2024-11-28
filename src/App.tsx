@@ -1,11 +1,14 @@
-import BasicTypes from "./typescript/BasicTypes"
+//import BasicTypes from "./typescript/BasicTypes"
+
+import ObjectLiterals from "./typescript/ObjectLiterals"
 
 function App() {
 
   return (
     <>
       <h1 className="flex flex-col justify-center items-center h-svh">
-      <BasicTypes />
+      {/* <BasicTypes /> */}
+      <ObjectLiterals />
     </h1>
     </>
   )
